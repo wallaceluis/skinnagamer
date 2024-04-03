@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skinna Gamer</title>
+    <link rel="stylesheet" href="/lib/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body class="bg-dark">
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg bg-dark border-body" data-bs-theme="dark">
+            <div class="container">
+                <h1>Skinna gamer</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#produtos">Produtos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre-a-loja">Sobre a loja</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+        <div id="carousel-banner" class="carousel carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="5000" class="carousel-item active">
+                    <picture>
+                        <source srcset="https://i.ibb.co/HXp9Wwk/banner-mobile-1.png" media="(max-width: 1023px)" />
+                        <img class="d-block w-100" src="/images/banners/banner desktop 1.png" alt="Perifericos a partir de 99,99" />
+                    </picture>
+                </div>
+                <div data-bs-interval="5000" class="carousel-item">
+                    <picture>
+                        <source srcset="https://i.ibb.co/1JLpPg3/banner-mobile-2.png" media="(max-width: 1023px)" />
+                        <img class="d-block w-100" src="/images/banners/banner desktop 2.jpg" alt="Sua loja de games e eletronicos" />
+                    </picture>
+                </div>
+            </div>
+            <button data-bs-target="#carousel-banner" data-bs-slide="next" type="button" class="carousel-control-next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-banner" data-bs-slide="prev" type="button" class="carousel-control-prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-banner" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel-banner" data-bs-slide-to="1"></button>            </div>
+        </div>
+        <div data-bs-spy="scroll" data-bs-target="cabecalho">
+            <section class="bg-dark text-bg-dark pt-5" id="produtos">
+                <div class="container">
+                    <div class="row">
+                        <h2 class="text-bg-dark text-center pb-2">Produtos</h2>
+                        <li class="col-lg-4 col-md-6 pb-5">
+                            <div id="carousel-headset" class="carousel slide carousel-fade carousel-dark" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <img class="d-block w-100 carousel-item active" src="/images/headset1.jpg" alt="Headset Gamer Sem Fio Astro A50 + Base Station">
+                                    <img class="d-block w-100 carousel-item" src="/images/headset2.jpg" alt="Headset Gamer Sem Fio Astro A50 + Base Station">
+                                    <img class="d-block w-100 carousel-item" src="/images/headset3.jpg" alt="Headset Gamer Sem Fio Astro A50 + Base Station">
+                                    <button data-bs-target="#carousel-headset" data-bs-slide="next" type="button" class="carousel-control-next">
+                                        <span class="carousel-control-next-icon"></span>
+                                    </button>
+                                    <button data-bs-target="#carousel-headset" data-bs-slide="prev" type="button" class="carousel-control-prev">
+                                        <span class="carousel-control-prev-icon"></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <h3 class="h4">Headset Gamer Sem Fio Astro A50 + Base Station Gen 4 com Áudio Dolby para PS4, PC, Mac - Preto/Prata </h3>
+                            <h5>R$ 1.699,99</h5>
+                        <button  class="btn btn-success d-block w-100" type="button">Adicionar ao Carrinho</button>
+                        </li>
+                        <li class="col-lg-4 col-md-6 pb-5">
+                            <div id="carousel-computador-pichau" class="carousel slide carousel-fade carousel-dark" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <img class="d-block w-100 carousel-item active" src="/images/pc1.jpg" alt="Computador pichau gamer">
+                                    <img class="d-block w-100 carousel-item" src="/images/pc2.jpg" alt="Computador pichau gamer">
+                                    <button data-bs-target="#carousel-computador-pichau" data-bs-slide="next" type="button" class="carousel-control-next">
+                                        <span class="carousel-control-next-icon"></span>
+                                    </button>
+                                    <button data-bs-target="#carousel-computador-pichau" data-bs-slide="prev" type="button" class="carousel-control-prev">
+                                        <span class="carousel-control-prev-icon"></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <h3 class="h4">Computador Pichau Gamer, Intel i5-10400, GeForce RTX 3060 12GB, 16GB DDR4, SSD M.2 480GB</h3>
+                            <h5>R$ 3.949,91</h5>
+                        <button  class="btn btn-success d-block w-100 " type="button">Adicionar ao Carrinho</button>
+                        </li>
+                        <li class="col-lg-4 col-md-6 pb-5">
+                            <div id="carousel-monitor-aoc" class="carousel slide carousel-fade carousel-dark" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <img class="d-block w-100 carousel-item active" src="/images/monitor-1.jpg" alt="Monitor gamer AOC">
+                                    <img class="d-block w-100 carousel-item" src="/images/monitor-2.jpg" alt="Monitor gamer AOC">
+                                    <img class="d-block w-100 carousel-item" src="/images/monitor-3.jpg" alt="Monitor gamer AOC">
+                                    <button data-bs-target="#carousel-monitor-aoc" data-bs-slide="next" type="button" class="carousel-control-next">
+                                        <span class="carousel-control-next-icon"></span>
+                                    </button>
+                                    <button data-bs-target="#carousel-monitor-aoc" data-bs-slide="prev" type="button" class="carousel-control-prev">
+                                        <span class="carousel-control-prev-icon"></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <h3 class="h4">Monitor Gamer AOC LEGEND 27 240Hz 0,5ms, Preta/Vermelho, MEDIOv</h3>
+                            <h5>R$1.549,99</h5>
+                        <button  class="btn btn-success d-block w-100 " type="button">Adicionar ao Carrinho</button>
+                        </li>
+                        <li class="col-lg-4 col-md-6 pb-5">
+                            <div id="carousel-rtx4080-super" class="carousel slide carousel-fade carousel-dark" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <img class="d-block w-100 carousel-item active" src="/images/rtx4080-1.jpg" alt="RTX 4080 SUPER">
+                                    <img class="d-block w-100 carousel-item" src="/images/rtx4080-2.jpg" alt="RTX 4080 SUPER">
+                                    <button data-bs-target="#carousel-rtx4080-super" data-bs-slide="next" type="button" class="carousel-control-next">
+                                        <span class="carousel-control-next-icon"></span>
+                                    </button>
+                                    <button data-bs-target="#carousel-rtx4080-super" data-bs-slide="prev" type="button" class="carousel-control-prev">
+                                        <span class="carousel-control-prev-icon"></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <h3 class="h4">PLACA DE VIDEO GIGABYTE GEFORCE RTX 4080 SUPER MASTER, 16GB, GDDR6X, 256-BIT, GV-N408SAORUS-M-16GD</h3>
+                            <h5>R$ 8.499,99</h5>
+                        <button  class="btn btn-success d-block w-100" type="button">Adicionar ao Carrinho</button>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="bg-dark " id="sobre-a-loja">
+                <div class="container">
+                    <div class="row">
+                        <h2 class="text-bg-dark text-center pb-2">Sobre a loja</h2>
+                        <div class="col-lg-6 col-md-12">
+                            <div class="card text-bg-dark text-center mb-3">
+                                <img id="img-sobre-a-loja" src="/images/gamesstore.png">
+                                <div class="card-img-overlay">
+                                <h4 class="card-title mb-3">Skinna Gamer</h4>
+                                <h5 class="card-subtitle mb-3">A sua loja geek</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi cum ullam minima similique aspernatur, nobis enim quam rerum perferendis unde eaque consequatur doloribus sed laboriosam labore ducimus, aperiam nostrum nisi.</p>
+                                <a href="" class="btn btn-primary w-50">Saiba mais</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 text-bg-dark">
+                            <h4>Entre em contato</h4>
+                            <form class="form">
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Seu nome:</label>
+                                    <input id="name" type="text" class="form-control">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Seu E-mail:</label>
+                                    <input id="email" type="email" class="form-control" placeholder="nome@exemplo.com">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="tel" class="form-label">Seu telefone:</label>
+                                    <input id="tel" type="tel" class="form-control">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="mensagem" class="form-label">Sua mensagem:</label>
+                                    <textarea class="form-control" id="mensagem" rows="3"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-success w-25">Enviar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer class="text-bg-dark">
+            <div class="row">
+                <div class="col-12 text-center">
+                    &copy; 2024 - Todos os direitos reservados
+                </div>
+            </div>
+        </footer>
+    <script src="/lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
